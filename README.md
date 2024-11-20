@@ -15,4 +15,21 @@ Install dependencies using the provided `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
+```
+# Setup
+
+## Add Your OpenAI API Key
+
+1. Create a `.env` file in the project root directory.
+2. Add your OpenAI API key in the following format:
+
+```plaintext
+   OPENAI_API_KEY=your_openai_api_key
+```
+## Run Streamlit App 
+1. Open your terminal and run the following command:
+```bash
+streamlit run app.py
+```
+2. Open the browser to navigate to http://localhost:8501 to use the chatbot.
 
